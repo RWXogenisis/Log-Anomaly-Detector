@@ -3,7 +3,7 @@ This is the public repo for Team Equators for the IISF hackathon
 
 A short Description of File Contents is as follows:
 
-✅ Server Logs : It contains the .csv file which has data that has been tokenized from the given Server Logs Dataset\n
+✅ Server Logs : It contains the .csv file which has data that has been tokenized from the given Server Logs Dataset
 
 ✅ FireWall Logs : It contains the .csv file which has data that has been tokenized from the given FireWall Logs Dataset
 
