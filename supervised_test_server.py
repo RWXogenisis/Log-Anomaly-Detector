@@ -9,7 +9,7 @@ from sklearn.metrics import precision_score, recall_score
 from joblib import dump, load
 
 # Load the CSV file
-file_path = "aaditya.csv"  # Replace with the actual path to your CSV file
+file_path = "./server logs/test_train.csv"  # Replace with the actual path to your CSV file
 df = pd.read_csv(file_path)
 
 # Drop unnecessary datetime, sdate, and edate columns
@@ -59,5 +59,5 @@ print(f"Precision: {precision}")
 print(f"Recall: {recall}")
 
 # Save the trained model
-model_save_path = "your_model_path.joblib"  # Replace with the desired path and filename
+model_save_path = "./your_model_path.joblib"  # Replace with the desired path and filename
 dump(model, model_save_path)
