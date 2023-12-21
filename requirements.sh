@@ -16,3 +16,10 @@ pip3 install scikit-learn
 
 # Make it executable by running the following command in the terminal: `chmod +x requirements.sh`
 # To run the script: `./requirements.sh`
+: '
+Steps:
+ 1.⁠ ⁠Run preprocessing.ipynb⁠ in the directory ⁠ NLP ⁠
+ 2.⁠ ⁠Run mitre-framework-scraped.py
+ 3.⁠ ⁠Run supervised_test_server.py⁠
+ 4.⁠ ⁠Run ⁠predict.py
+'
