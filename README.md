@@ -61,3 +61,12 @@ Upon successful execution of the script, the CYBRANA toolkit progresses through 
 - Mapping of CAPEC entries to CWE and CWE to CVE for comprehensive vulnerability identification.
 - Calculation and processing of CVSS scores.
 - Generation of an informative and visually appealing HTML-based dashboard report (`dashboard.html`).
+
+## To-Do List
+
+- Stateful Inspection
+- Update AI Accuracy with better Datasets
+- Dashboard + SIEM
+- Polishing Work
+- Self-Feedback Mechanism: Induction with Experimentation
+- LLM to generate reports using "xAI and NLP"
