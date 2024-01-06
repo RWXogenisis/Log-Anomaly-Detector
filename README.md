@@ -64,9 +64,9 @@ Upon successful execution of the script, the CYBRANA toolkit progresses through 
 
 ## To-Do List
 
-- Stateful Inspection
-- Dashboard + SIEM
-- Update AI Accuracy with better Datasets
+- Stateful Inspection [Ashwant]
+- Dashboard + SIEM [Aaditya]
+- Update AI Accuracy with better Datasets [Karun - use Kaggle]
+- Self-Feedback Mechanism: Induction with Experimentation [Karun]
+- LLM to generate reports using "xAI and NLP" [Ashwant, Hareesh]
 - Polishing Work
-- Self-Feedback Mechanism: Induction with Experimentation
-- LLM to generate reports using "xAI and NLP"
