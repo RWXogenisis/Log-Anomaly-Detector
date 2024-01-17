@@ -62,5 +62,5 @@ print("F1-Score: %f" % metrics.f1_score(y_test, predicted))
 print("AUC: %f" % auc)
 
 # Save the model and vectorizer
-joblib.dump(lgs, "watupbiiitch_model.pkl")
-joblib.dump(vectorizer, "watupbiiitch_vectorizer.pkl")
+joblib.dump(lgs, "model.pkl")
+joblib.dump(vectorizer, "vectorizer.pkl")
