@@ -5,10 +5,10 @@ import joblib
 from urllib.parse import unquote
 
 # Load the vectorizer
-vectorizer = joblib.load('watupbiiitch_vectorizer.pkl')
+vectorizer = joblib.load('vectorizer.pkl')
 
 # Load the trained model
-loaded_model = joblib.load('watupbiiitch_model.pkl')
+loaded_model = joblib.load('model.pkl')
 
 # Assuming you have the same preprocessing function as loadFile
 def preprocess_paths(paths):
