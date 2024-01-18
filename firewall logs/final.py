@@ -111,6 +111,7 @@ def anomaly_detection():
     hostile_activity = df[df['dstcountry'].isin(hostile_countries)]
 
     with open('anomaly.txt', 'a') as file:
+        file.write("Date and Time: {}\n".format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
         file.write("Abnormal Spikes in Requests:\n")
         file.write(str(abnormal_spikes) + '\n\n')
 
